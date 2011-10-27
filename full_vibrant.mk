@@ -84,10 +84,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/keychars/sec_jack.kcm.bin:system/usr/keychars/sec_jack.kcm.bin \
     device/samsung/vibrant/prebuilt/keychars/melfas-touchkey.kcm.bin:system/usr/keychars/melfas-touchkey.kcm.bin \
     device/samsung/vibrant/prebuilt/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    device/samsung/vibrant/prebuilt/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin  
+    device/samsung/vibrant/prebuilt/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin
 
 PRODUCT_COPY_FILES += \
-    device/samsung/vibrant/prebuilt/vold.fstab:system/etc/vold.fstab 
+    device/samsung/vibrant/prebuilt/vold.fstab:system/etc/vold.fstab
 
 # Kernel
 ifeq ($(TARGET_PREBUILT_KERNEL),)
